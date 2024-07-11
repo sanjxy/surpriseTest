@@ -6,7 +6,6 @@ if len([x,y,z])!=3:
 
 
 else:
-#    x,y,z=value
     x=float(x)
     z=float(z)
 
