@@ -1,0 +1,6 @@
+Interpreter program:
+the interpreter program just inputs a string and then splits it. the split function splits everything separated by a space(if nothing is specified). and then we check if the input has more than 3 separated values, if yes it just exits the terminal. but if there are 3 then we convert x and z to float. then we use operator(middle value) as it is since we are using if statement to compare it to operators and perform the appropriate operation and print the result
+
+Meal plan program:
+in the meal program we create a convert function which checks for am or pm in input and splits numbers separated by : and stores it in two values hours and minutes. if its pm we add 12 to hours. if theres no am or pm we just split it to hours and minutes. and then we add minutes/60 to hours to get exact hour value. and then call convert with time(input) which shows appropriate meal time using if-elif. it just does exit() if the time is not any meal time
+ 
